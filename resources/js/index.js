@@ -1,8 +1,8 @@
-const para = document.querySelector('p')
+const pElement = document.querySelector('p')
 
-para.addEventListener('click', updateName)
+pElement.addEventListener('click', updateName)
 
 function updateName() {
   let name = prompt('Ingresa un nuevo nombre')
-  para.textContent = 'Player 1: ' + name
+  pElement.textContent = 'Player 1: ' + name
 }
